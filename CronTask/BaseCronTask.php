@@ -1,10 +1,10 @@
 <?php
 
 
-namespace CronTaskBot\CronTask;
+namespace Ling\CronTaskBot\CronTask;
 
 
-use CronTaskBot\Exception\CronTaskBotException;
+use Ling\CronTaskBot\Exception\CronTaskBotException;
 
 
 class BaseCronTask implements CronTaskInterface

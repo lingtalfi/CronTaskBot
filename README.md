@@ -14,7 +14,7 @@ Install
 ==========
 Using the [uni](https://github.com/lingtalfi/universe-naive-importer) command.
 ```bash
-uni import CronTaskBot
+uni import Ling/CronTaskBot
 ```
 
 Or just download it and place it where you want otherwise.
@@ -64,18 +64,18 @@ How to
 <?php
 
 
-use Bat\SessionTool;
+use Ling\Bat\SessionTool;
 use Core\Services\A;
-use CronTaskBot\CronTask\BaseCronTask;
-use CronTaskBot\CronTaskBot;
-use CronTaskBot\Exception\CrontTaskBotException;
+use Ling\CronTaskBot\CronTask\BaseCronTask;
+use Ling\CronTaskBot\CronTaskBot;
+use Ling\CronTaskBot\Exception\CrontTaskBotException;
 use Module\Ekom\Api\Entity\CartModelEntity;
 use Module\Ekom\Api\Layer\CartLayer;
 use Module\Ekom\Api\Layer\OrderStatusLayer;
 use Module\Ekom\Api\Util\CartUtil;
 use Module\ThisApp\Ekom\PaymentMethodHandler\CreditCardWalletPaymentMethodHandler;
-use QuickPdo\QuickPdo;
-use QuickPdo\Util\QuickPdoListInfoUtil;
+use Ling\QuickPdo\QuickPdo;
+use Ling\QuickPdo\Util\QuickPdoListInfoUtil;
 
 
 // using kamille framework here (https://github.com/lingtalfi/kamille)

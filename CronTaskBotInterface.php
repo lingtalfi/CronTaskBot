@@ -1,7 +1,7 @@
 <?php
 
 
-namespace CronTaskBot;
+namespace Ling\CronTaskBot;
 
 
 interface CronTaskBotInterface

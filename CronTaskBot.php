@@ -1,10 +1,10 @@
 <?php
 
 
-namespace CronTaskBot;
+namespace Ling\CronTaskBot;
 
 
-use CronTaskBot\CronTask\CronTaskInterface;
+use Ling\CronTaskBot\CronTask\CronTaskInterface;
 
 class CronTaskBot implements CronTaskBotInterface
 {
